@@ -15,7 +15,7 @@ public class DataBaseConfiguration {
 
 	@Bean
 	public DataSource dataSource() {
-		DriverManagerDataSource datasource = new DriverManagerDataSource("jdbc:mysql://localhost:3306/learning", "root",
+		DriverManagerDataSource datasource = new DriverManagerDataSource("jdbc:mysql://localhost:3306/farmer", "root",
 				"root");
 		datasource.setDriverClassName("com.mysql.jdbc.Driver");
 		return datasource;
